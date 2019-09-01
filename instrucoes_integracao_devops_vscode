@@ -1,0 +1,34 @@
+# Introducao
+    Tutorial simples para realizar a integracao entre o Azure DevOps com o Vs Code
+
+# Passos
+    # No Devops
+        1 - No menu lateral entrar no icone REPOS.
+        2 - No canto superior direito, clicar em CLONE, 
+        3 - Na janela seguinte clique em: CLONE IN VS CODE.
+        
+    # No VS Code
+        4 - Escolha uma pasta onde ira ficar o repositorio local.
+        5 - No canto inferior esquerdo ira aparecer a branch MASTER e ao lado um texto ( TEAM ), isso siginifica que voce nao esta logado no sistema.
+        6 - Aperte command+P, em seguida digite: >Team: SignIn.
+        7 - No popup que sera aberto escolha a segunda opcao.
+        8 - No novo popup voce precisara copiao o codigo que aparecera e apertar o Enter. Sera aberto um janela do seu navegador.
+
+    # No Chrome 
+        9 - Na janela central voce precisa colar o codigo copiado no item 8 em seguir.
+        10 - Nesse momento voce precisar escolher a mesma conta da Microsoft que utilizou para se cadastrar no DevOps.
+
+    # No VS Code
+        11 - Apartir desse momento no canto inferior esquerdo comecara a projeto de trabalho e nao sera mais visto o texto TEAM.
+    
+    # No DevOps
+        12 - No header superior no canto direito clique no seu avatar com as iniciais do seu cadastro, logo apos clique em SECURITY
+        13 - Na tela seguinte selecione o seu TOKEN e clique em REGENERATE, e copie o codigo exibido
+
+    # No VS Code
+        14 - Repita o passo 6
+        15 - No popup que sera aberto escolha a primeira opcao e cole o codigo que voce copiou no passo 13.
+
+    PRONTO A SUA CONTA DO DEVOPS JA ESTA CONECTADA COM O VSCODE PARA MAIS INFORMACOES ENTRE EM
+
+- [DEV_OPS](https://marketplace.visualstudio.com/items?itemName=ms-vsts.team) 
