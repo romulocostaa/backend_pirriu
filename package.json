@@ -1,0 +1,18 @@
+{
+  "name": "Pirriu",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://monduvinbdx@dev.azure.com/monduvinbdx/Pirriu%20!/_git/Pirriu%20!",
+  "author": "Romulo <romulo.costa@qualitecsp.com.br>",
+  "license": "MIT",
+  "scripts": {
+    "dev": "nodemon src/server.js"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "mongoose": "^5.6.11",
+    "morgan": "^1.9.1",
+    "nodemon": "^1.19.2",
+    "require-dir": "^1.2.0"
+  }
+}
