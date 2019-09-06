@@ -10,7 +10,7 @@ mongoose.connect("mongodb+srv://romulo:Euteamo456@cluster0-qakuv.mongodb.net/tes
 
 requireDir('./models');
 
-app.use(cors());
+app.use(cors()); 
 app.use('/api', require('./routes'));
 
 app.listen(process.env.PORT);   
