@@ -6,7 +6,7 @@ const cors = require('cors');
 const app = express();
 app.use(express.json());
 
-mongoose.connect("mongodb://localhost:27017/pirriu", { useNewUrlParser: true });
+mongoose.connect("mongodb+srv://romulo:Euteamo456@cluster0-qakuv.mongodb.net/test?retryWrites=true&w=majority", { useNewUrlParser: true });
 
 requireDir('./models');
 
