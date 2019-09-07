@@ -13,6 +13,11 @@ const UsersSchema = new mongoose.Schema({
         type: String,
         required: true
     },
+    guard: {
+        type: Boolean,
+        default: false,
+        required: true
+    },
     createdAt: {
         type: Date,
         default: Date.now()
